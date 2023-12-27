@@ -1,7 +1,10 @@
 <!-- Navbar -->
 
 <div class="navbar bg-base-300">
-  <img src="MPSI1/src/lib/img/logoMpsi1.png" class="max-w-10 mx-2" />
+  <img
+    src="https://cdn.discordapp.com/attachments/971357234980327424/1189545367570759711/logoMpsi1.png?ex=659e8d74&is=658c1874&hm=c4b9c041a7a17e320387ee3dd1bb2281d3c36bfa0a642b8e4eb9691930e62ffc&"
+    class="max-w-10 mx-2"
+  />
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -64,7 +67,10 @@
 
 <div class="hero h-svh bg-base-200">
   <div class="hero-content flex-col lg:flex-row max-w-4xl">
-    <img src="/MPSI1/static/img/nap.jpg" class="max-w-52 mx-10 rounded-full" />
+    <img
+      src="https://cdn.discordapp.com/attachments/971357234980327424/1189545367876948048/nap.jpg?ex=659e8d74&is=658c1874&hm=719f55e051ab64608491510b0e5d623fcae787238d3debb366541a5b59ccba22&"
+      class="max-w-52 mx-10 rounded-full"
+    />
     <div>
       <h1 class="text-5xl font-bold">Lorem, ipsum.</h1>
       <p class="py-6">
@@ -82,7 +88,10 @@
 
 <footer class="footer p-10 bg-neutral text-neutral-content">
   <aside>
-    <img src="/static/aulys.png" class="max-w-14" />
+    <img
+      src="https://cdn.discordapp.com/attachments/971357234980327424/1189545367344251021/aulys.png?ex=659e8d74&is=658c1874&hm=9f7e9b724462d92e96dd6d0581b623ecc2995c40799d725d680ed49a3c00c9c8&"
+      class="max-w-14"
+    />
     <p>Bonjour</p>
   </aside>
   <nav>
