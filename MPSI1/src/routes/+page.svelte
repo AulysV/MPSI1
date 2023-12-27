@@ -1,6 +1,6 @@
 <!-- Navbar -->
 
-<div class="navbar bg-base-300">
+<div class="navbar bg-base-300 fixed top-0 z-10">
   <img
     src="https://cdn.discordapp.com/attachments/971357234980327424/1189545367570759711/logoMpsi1.png?ex=659e8d74&is=658c1874&hm=c4b9c041a7a17e320387ee3dd1bb2281d3c36bfa0a642b8e4eb9691930e62ffc&"
     class="max-w-10 mx-2"
@@ -58,7 +58,7 @@
   </div>
   <div class="navbar-end">
     <a class="btn" href="https://discord.gg/D8mpMaA8mj" target="_blank"
-      >Rejoindre</a
+      >Lorem</a
     >
   </div>
 </div>
