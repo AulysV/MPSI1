@@ -71,7 +71,7 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi atque
         esse vitae vel ut enim quae maxime quod deleniti eius excepturi
         provident voluptate facilis, beatae consectetur veritatis expedita
-        recusandae optio?
+        recusandae optio ?
       </p>
       <button class="btn btn-primary">Lorem.</button>
     </div>
