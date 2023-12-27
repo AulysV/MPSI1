@@ -1,5 +1,5 @@
 <div class="hero h-svh">
-  <h1 class="z-10 text-5xl text-neutral-content bg-base-300 p-5 rounded-2xl">Heil Napoléours !!</h1>
+  <h1 class="z-10 text-5xl bg-base-300 p-5 rounded-2xl">Heil Napoléours !!</h1>
   <div class="carousel">
     <div id="slide1" class="carousel-item relative w-full">
       <img
