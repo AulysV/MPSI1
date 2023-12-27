@@ -71,7 +71,7 @@
   </div>
 
   <div class="navbar-end">
-    <a class="btn" href="https://discord.gg/D8mpMaA8mj" target="_blank">Lorem</a
+    <a class="btn" href="https://discord.gg/D8mpMaA8mj" target="_blank">Rejoindre</a
     >
   </div>
 </div>
@@ -86,7 +86,7 @@
       src="https://cdn.discordapp.com/attachments/971357234980327424/1189545367344251021/aulys.png?ex=659e8d74&is=658c1874&hm=9f7e9b724462d92e96dd6d0581b623ecc2995c40799d725d680ed49a3c00c9c8&"
       class="max-w-14"
     />
-    <p>Bonjour</p>
+    <p>Coucou cé mwa</p>
   </aside>
   <nav>
     <header class="footer-title">Rézo socio</header>

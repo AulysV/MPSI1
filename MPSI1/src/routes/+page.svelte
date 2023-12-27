@@ -7,14 +7,13 @@
       class="max-w-52 mx-10 rounded-full"
     />
     <div>
-      <h1 class="text-5xl font-bold">Lorem, ipsum.</h1>
+      <h1 class="text-5xl font-bold">Bonjour</h1>
       <p class="py-6">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi atque
-        esse vitae vel ut enim quae maxime quod deleniti eius excepturi
-        provident voluptate facilis, beatae consectetur veritatis expedita
-        recusandae optio ?
+        Ceci est un texte de remplissage, et comme vous le voyez, l'auteur de ce
+        texte n'était pas forcément très inspiré au moment où il a été amené à
+        l'écrire.
       </p>
-      <button class="btn btn-primary">Lorem.</button>
+      <button class="btn btn-primary" href="/#">Bouton useless</button>
     </div>
   </div>
 </div>
