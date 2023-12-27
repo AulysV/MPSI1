@@ -1,7 +1,7 @@
 <!-- Navbar -->
 
 <div class="navbar bg-base-300">
-  <img src="src/lib/img/logoMpsi1.png" class="max-w-10 mx-2" />
+  <img src="$lib/img/logoMpsi1.png" class="max-w-10 mx-2" />
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -64,7 +64,7 @@
 
 <div class="hero h-svh bg-base-200">
   <div class="hero-content flex-col lg:flex-row max-w-4xl">
-    <img src="src/lib/img/nap.jpg" class="max-w-52 mx-10 rounded-full" />
+    <img src="/MPSI1/static/img/nap.jpg" class="max-w-52 mx-10 rounded-full" />
     <div>
       <h1 class="text-5xl font-bold">Lorem, ipsum.</h1>
       <p class="py-6">
@@ -82,7 +82,7 @@
 
 <footer class="footer p-10 bg-neutral text-neutral-content">
   <aside>
-    <img src="src/lib/img/aulys.png" alt="tortue" class="max-w-14" />
+    <img src="/static/aulys.png" class="max-w-14" />
     <p>Bonjour</p>
   </aside>
   <nav>
