@@ -1,7 +1,7 @@
 <!-- Navbar -->
 
 <div class="navbar bg-base-300">
-  <img src="src/lib/img/logoMpsi1.png" class="max-w-10 mx-2" />
+  <img src="MPSI1/src/lib/img/logoMpsi1.png" class="max-w-10 mx-2" />
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
