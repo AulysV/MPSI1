@@ -13,6 +13,7 @@
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"autoprefixer": "^10.4.16",
 		"daisyui": "^4.4.24",
+		"easter-egg-collection": "^1.4.56",
 		"postcss": "^8.4.32",
 		"svelte": "^4.2.7",
 		"svelte-preprocess-import-assets": "^1.1.0",
@@ -21,6 +22,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-vercel": "^4.0.3"
+		"@sveltejs/adapter-vercel": "^4.0.3",
+		"elevator.js": "^1.0.1",
+		"party-js": "^2.2.0"
 	}
 }

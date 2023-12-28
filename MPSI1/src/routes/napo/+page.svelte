@@ -1,3 +1,7 @@
+<script src="https://rawgit.com/WeiChiaChang/Easter-egg/master/easter-eggs-collection.js">
+  import collection from 'easter-egg-collection'
+</script>
+
 <div class="hero h-svh">
   <h1 class="z-10 text-2xl bg-base-300 p-5 rounded-2xl lg:text-5xl">
     Napoléours
@@ -55,6 +59,7 @@
 </div>
 
 <div class="m-20 text-lg">
+  <input type="text" placeholder="Tapez « wink » ici" class="input input-bordered input-primary w-full max-w-xs mb-5" />
   <h1 class="text-3xl mb-9">Lorem, ipsum dolor.</h1>
   <p>
     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, error, quo
@@ -88,4 +93,6 @@
     id asperiores quo ipsum laudantium repellat necessitatibus provident rerum
     debitis animi quae explicabo, voluptates possimus sunt eaque fuga?
   </p>
+
 </div>
+
