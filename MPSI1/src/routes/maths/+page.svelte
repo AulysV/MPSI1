@@ -20,8 +20,19 @@
   });
 </script>
 
-<div class="h-svh bg-base-200 p-20">
-  <ul class="timeline timeline-vertical lg:timeline-horizontal">
+<div
+  class="h-full px-10 bg-base-200 py-20 flex flex-col items-center lg:items-start lg:px-20"
+>
+  <h1 class="text-3xl py-7">
+    Mathématiques en classe préparatoire aux grandes écoles.
+  </h1>
+  <p>
+    Voici un très sérieux résumé hebdomadaire des cours de mathathématiques
+    enseignées par M. Molin.
+  </p>
+  <ul
+    class="timeline timeline-vertical lg:timeline-horizontal bg-base-300 p-7 rounded-lg my-10"
+  >
     <!-- 1 -->
     <li>
       <div class="timeline-start">25 septembre</div>
@@ -78,13 +89,13 @@
         </div>
       </dialog>
 
-      <hr />
+      <hr class="bg-primary" />
     </li>
 
     <!-- 2 -->
 
     <li>
-      <hr />
+      <hr class="bg-primary" />
       <div class="timeline-start">2 octobre</div>
       <div class="timeline-middle">
         <svg
@@ -139,13 +150,13 @@
         </div>
       </dialog>
 
-      <hr />
+      <hr class="bg-primary" />
     </li>
 
     <!-- 3 -->
 
     <li>
-      <hr />
+      <hr class="bg-primary" />
       <div class="timeline-start">9 octobre</div>
       <div class="timeline-middle">
         <svg
@@ -187,13 +198,13 @@
         </div>
       </dialog>
 
-      <hr />
+      <hr class="bg-primary" />
     </li>
 
     <!-- 4 -->
 
     <li>
-      <hr />
+      <hr class="bg-primary" />
       <div class="timeline-start">6 novembre</div>
       <div class="timeline-middle">
         <svg
@@ -232,13 +243,13 @@
         </div>
       </dialog>
 
-      <hr />
+      <hr class="bg-primary" />
     </li>
 
     <!-- 5 -->
 
     <li>
-      <hr />
+      <hr class="bg-primary" />
       <div class="timeline-start">20 novembre</div>
       <div class="timeline-middle">
         <svg
@@ -287,13 +298,13 @@
         </div>
       </dialog>
 
-      <hr />
+      <hr class="bg-primary" />
     </li>
 
     <!-- 6 -->
 
     <li>
-      <hr />
+      <hr class="bg-primary" />
       <div class="timeline-start">27 novembre</div>
       <div class="timeline-middle">
         <svg
@@ -339,13 +350,13 @@
         </div>
       </dialog>
 
-      <hr />
+      <hr class="bg-primary" />
     </li>
 
     <!-- 7 -->
 
     <li>
-      <hr />
+      <hr class="bg-primary" />
       <div class="timeline-start">1er décembre</div>
       <div class="timeline-middle">
         <svg
@@ -383,7 +394,107 @@
         </div>
       </dialog>
 
-      <hr />
+      <hr class="bg-primary" />
+    </li>
+
+    <!-- 8 -->
+
+    <li>
+      <hr class="bg-primary" />
+      <div class="timeline-start">11 décembre</div>
+      <div class="timeline-middle">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          class="w-5 h-5"
+          ><path
+            fill-rule="evenodd"
+            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+            clip-rule="evenodd"
+          /></svg
+        >
+      </div>
+      <div
+        class="timeline-end btn timeline-box"
+        onclick="my_modal_napo.showModal()"
+      >
+        Napoléours
+      </div>
+      <dialog id="my_modal_napo" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <h3 class="font-bold text-lg">Napoléours</h3>
+          <p class="py-4">
+            Le divin avènement de Napoléours 1er, notre Empereur à tous.
+          </p>
+          <img
+            src="https://cdn.discordapp.com/attachments/971357234980327424/1189561209654083604/Sans_titre.jpg?ex=659e9c35&is=658c2735&hm=4637e16d0a1a308d93ebf430e8bd209c4097fc2bd31df49073cebd830791bb81&"
+            alt="Napléours"
+            class="max-h-32 w-auto mx-auto rounded-md lg:max-h-48 mb-4"
+          />
+
+          <h3 class="font-bold text-lg">Suite stationnaire</h3>
+          <p class="py-3">L'image se suffit à elle-même.</p>
+          <img
+            src="https://media.discordapp.net/attachments/971357234980327424/1190043414281076818/image.png?ex=65a05d4b&is=658de84b&hm=a201d254538a20850204e5d13f147fd5f115ae5e7ed592913ca2ca5c69e2796e&=&format=webp&quality=lossless"
+            alt=""
+            class="max-h-32 w-auto mx-auto rounded-md lg:max-h-48"
+          />
+
+          <div class="modal-action">
+            <form method="dialog">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn">Fermer</button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+
+      <hr class="bg-primary" />
+    </li>
+
+    <!-- 9 -->
+
+    <li>
+      <hr class="bg-primary" />
+      <div class="timeline-start">18 décembre</div>
+      <div class="timeline-middle">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          class="w-5 h-5"
+          ><path
+            fill-rule="evenodd"
+            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+            clip-rule="evenodd"
+          /></svg
+        >
+      </div>
+      <div
+        class="timeline-end btn timeline-box"
+        onclick="my_modal_cit.showModal()"
+      >
+        Vacances
+      </div>
+      <dialog id="my_modal_cit" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <h3 class="font-bold text-lg">Citation de la semaine</h3>
+          <p class="py-4">
+            « Une promo de perdue, 10 de retrouvées, c'est ce que l'on se dit
+            entre profs de prépa. »
+          </p>
+
+          <div class="modal-action">
+            <form method="dialog">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn">Fermer</button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+
+      <hr class="bg-primary" />
     </li>
   </ul>
 </div>
