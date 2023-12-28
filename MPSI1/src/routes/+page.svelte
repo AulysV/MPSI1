@@ -2,6 +2,7 @@
 <script src="https://rawgit.com/WeiChiaChang/Easter-egg/master/easter-eggs-collection.js">
   import collection from 'easter-egg-collection'
 </script>
+
 <div class="hero h-svh bg-base-200">
   <div class="hero-content flex-col lg:flex-row max-w-4xl">
     <img
