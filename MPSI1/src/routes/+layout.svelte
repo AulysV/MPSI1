@@ -1,5 +1,17 @@
 <script>
   import "../app.css";
+  // import { gsap } from "gsap";
+
+  // onMount(() => {
+  //   const rotateButton = () => {
+  //     gsap.to("#initial-button", {
+  //       rotation: "+=360",
+  //       duration: 1,
+  //       ease: "power2.inOut",
+  //     });
+  //   };
+  //   rotateButton();
+  // });
 </script>
 
 <!-- Navbar -->
@@ -48,7 +60,12 @@
             <li><a>Submenu 2</a></li>
           </ul>
         </li>
-        <li><a>Item 3</a></li>
+        <li>
+          <a href="https://www.instagram.com/ord_kevin7256/" target="_blank"
+            >Échec</a
+          >
+        </li>
+        <li><a href="/maths">Maths</a></li>
       </ul>
     </div>
     <a class="btn btn-ghost text-xl" href="/">Accueil</a>
@@ -66,14 +83,17 @@
           </ul>
         </details>
       </li>
-      <li><a>Item 3</a></li>
+      <li>
+        <a href="https://www.instagram.com/ord_kevin7256/" target="_blank"
+          >Échec</a
+        >
+      </li>
+      <li><a href="/maths">Maths</a></li>
     </ul>
   </div>
 
   <div class="navbar-end">
-    <a class="btn" href="https://discord.gg/D8mpMaA8mj" target="_blank"
-      >Rejoindre</a
-    >
+    <a class="btn" href="">MPSI1</a>
   </div>
 </div>
 

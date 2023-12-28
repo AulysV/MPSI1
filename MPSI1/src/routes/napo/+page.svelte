@@ -4,7 +4,7 @@
   </h1>
   <div class="carousel my-24 lg:my-44">
     <div id="slide1" class="carousel-item relative w-full">
-      <img
+      <img 
         src="https://cdn.discordapp.com/attachments/971357234980327424/1189561209654083604/Sans_titre.jpg?ex=659e9c35&is=658c2735&hm=4637e16d0a1a308d93ebf430e8bd209c4097fc2bd31df49073cebd830791bb81&"
         class="w-full max-h-svh object-cover object-top blur-sm brightness-50"
       />
@@ -88,5 +88,4 @@
     id asperiores quo ipsum laudantium repellat necessitatibus provident rerum
     debitis animi quae explicabo, voluptates possimus sunt eaque fuga?
   </p>
-
 </div>

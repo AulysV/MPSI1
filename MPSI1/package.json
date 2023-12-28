@@ -23,6 +23,7 @@
 	"dependencies": {
 		"@sveltejs/adapter-vercel": "^4.0.3",
 		"gsap": "^3.12.4",
+		"katex": "^0.16.9",
 		"party-js": "^2.2.0"
 	}
 }
