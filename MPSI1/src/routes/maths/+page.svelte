@@ -27,8 +27,8 @@
     Mathématiques en classe préparatoire aux grandes écoles.
   </h1>
   <p>
-    Voici un très sérieux résumé hebdomadaire des cours de mathathématiques
-    enseignées par M. Molin.
+    Voici un très sérieux résumé non exhaustif hebdomadaire des cours de
+    mathathématiques enseignées par M. Molin.
   </p>
   <ul
     class="timeline timeline-vertical lg:timeline-horizontal bg-base-300 p-7 rounded-lg my-10"
@@ -479,10 +479,18 @@
       </div>
       <dialog id="my_modal_cit" class="modal modal-bottom sm:modal-middle">
         <div class="modal-box">
-          <h3 class="font-bold text-lg">Citation de la semaine</h3>
+          <h3 class="font-bold text-lg">Citations de la semaine</h3>
           <p class="py-4">
             « Une promo de perdue, 10 de retrouvées, c'est ce que l'on se dit
             entre profs de prépa. »
+          </p>
+
+          <p class="py-4">
+            Contexte : William passe au tableau, réussit une factorisation de
+            polynôme et regarde M. Molin comme un harang saur : <br />
+            « Je sais que la première fois ça peut être troublant, mais il peut vous
+            arriver de réussir quelque chose. Je vous souhaite à tous d'en faire
+            l'expérience ! »
           </p>
 
           <div class="modal-action">

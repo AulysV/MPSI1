@@ -54,9 +54,9 @@
       >
         <li><a href="/napo">Napoléours</a></li>
         <li>
-          <a>Parent</a>
+          <a>Matières</a>
           <ul class="p-2">
-            <li><a>Submenu 1</a></li>
+            <li><a href="/maths">Maths</a></li>
             <li><a>Submenu 2</a></li>
           </ul>
         </li>
@@ -65,7 +65,6 @@
             >Échec</a
           >
         </li>
-        <li><a href="/maths">Maths</a></li>
       </ul>
     </div>
     <a class="btn btn-ghost text-xl" href="/">Accueil</a>
@@ -76,9 +75,9 @@
       <li><a href="/napo">Napoléours</a></li>
       <li>
         <details>
-          <summary>Parent</summary>
+          <summary>Matières</summary>
           <ul class="p-2">
-            <li><a>Submenu 1</a></li>
+            <li><a href="/maths">Maths</a></li>
             <li><a>Submenu 2</a></li>
           </ul>
         </details>
@@ -88,7 +87,6 @@
           >Échec</a
         >
       </li>
-      <li><a href="/maths">Maths</a></li>
     </ul>
   </div>
 
@@ -101,7 +99,7 @@
 
 <!-- Footer -->
 
-<footer class="footer p-10 bg-neutral text-neutral-content">
+<!-- <footer class="footer p-7 bg-neutral text-neutral-content">
   <aside>
     <img
       src="https://cdn.discordapp.com/attachments/971357234980327424/1189545367344251021/aulys.png?ex=659e8d74&is=658c1874&hm=9f7e9b724462d92e96dd6d0581b623ecc2995c40799d725d680ed49a3c00c9c8&"
@@ -121,6 +119,52 @@
       >
     </div>
   </nav>
+</footer> -->
+
+<footer class="footer footer-center p-10 bg-base-300 text-base-content rounded">
+  <nav class="grid grid-flow-col gap-4">
+    <button onclick="my_modal_5.showModal()">À propos</button>
+    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+      <div class="modal-box">
+        <h3 class="font-bold text-lg">Bonjour</h3>
+        <p class="py-4">Lorem ipsum dolor sit amet.</p>
+        <div class="modal-action">
+          <form method="dialog">
+            <!-- if there is a button in form, it will close the modal -->
+            <button class="btn">Fermer</button>
+          </form>
+        </div>
+      </div>
+    </dialog>
+
+    <button onclick="my_modal_5.showModal()">Contact</button>
+    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+      <div class="modal-box">
+        <h3 class="font-bold text-lg">Bonjour</h3>
+        <p class="py-4">Lorem ipsum dolor sit amet.</p>
+        <div class="modal-action">
+          <form method="dialog">
+            <!-- if there is a button in form, it will close the modal -->
+            <button class="btn">Fermer</button>
+          </form>
+        </div>
+      </div>
+    </dialog>
+  </nav>
+  <nav>
+    <div class="grid grid-flow-col gap-4">
+      <a href="https://discord.gg/D8mpMaA8mj" target="_blank"
+        ><i class="fa-brands fa-discord text-xl"></i></a
+      >
+      <a
+        href="https://www.instagram.com/napoleon_mpsi1/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
+        target="_blank"><i class="fa-brands fa-instagram text-xl"></i></a
+      >
+    </div>
+  </nav>
+  <aside>
+    <p>Copyright © 2023 - All right reserved by nobody</p>
+  </aside>
 </footer>
 
 <!-- Toast -->
