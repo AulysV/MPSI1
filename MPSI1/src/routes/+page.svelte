@@ -26,11 +26,9 @@
     <div>
       <h1 class="text-5xl font-bold">Bonjour</h1>
       <p class="py-6">
-        Ceci est un texte de remplissage, et comme vous le voyez, l'auteur de ce
-        texte n'était pas forcément très inspiré au moment où il a été amené à
-        l'écrire.
+        Vous êtes actuellement sur l'incroyable et merveilleux site internet de
+        la MPSI1.
       </p>
-      <button class="btn btn-primary" href="/#">Bouton useless</button>
     </div>
   </div>
 </div>
