@@ -2,7 +2,6 @@
 
 <script>
   import { gsap } from "gsap";
-
   let rotation = 0;
 
   const rotateImage = () => {

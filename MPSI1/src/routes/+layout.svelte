@@ -126,11 +126,27 @@
 
 <footer class="footer footer-center p-10 bg-base-300 text-base-content rounded">
   <nav class="grid grid-flow-col gap-4">
-    <button onclick="my_modal_5.showModal()">À propos</button>
-    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
-      <div class="modal-box">
-        <h3 class="font-bold text-lg">Bonjour</h3>
-        <p class="py-4">Lorem ipsum dolor sit amet.</p>
+    <button onclick="my_modal_ap.showModal()">À propos</button>
+    <dialog id="my_modal_ap" class="modal modal-bottom sm:modal-middle">
+      <div class="modal-box text-left">
+        <h3 class="font-bold text-lg">Par qui ?</h3>
+        <p class="py-4">
+          <a
+            href="https://github.com/AulysV"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link-hover">Une certaine personne du nom de Aulys</a
+          >
+        </p>
+        <h3 class="font-bold text-lg">Avec quoi ?</h3>
+        <p class="py-4">
+          Svelte (framework JS) + TailwindCSS (composants : daisyUI)
+        </p>
+        <h3 class="font-bold text-lg">Pourquoi ?</h3>
+        <p class="py-4">
+          Parce que c'est réconfortant, en prépa, de se dire qu'on peut avoir
+          quelque fois (mais rarement) du temps à perdre.
+        </p>
         <div class="modal-action">
           <form method="dialog">
             <!-- if there is a button in form, it will close the modal -->
@@ -140,11 +156,25 @@
       </div>
     </dialog>
 
-    <button onclick="my_modal_5.showModal()">Contact</button>
-    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
-      <div class="modal-box">
-        <h3 class="font-bold text-lg">Bonjour</h3>
-        <p class="py-4">Lorem ipsum dolor sit amet.</p>
+    <button onclick="my_modal_cont.showModal()">Contact</button>
+    <dialog id="my_modal_cont" class="modal modal-bottom sm:modal-middle">
+      <div class="modal-box text-left">
+        <h3 class="font-bold text-lg">Contact</h3>
+        <p class="pt-4">
+          Si faute <span class="line-through">d'orthogrpahe</span> de frappe, suggestion,
+          déclaration de guerre des PCSI2 :
+        </p>
+        <ul class="mt-3">
+          <li>
+            <a
+              href="https://discord.com/users/637695900382134303"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-primary">Discord</a
+            >
+          </li>
+        </ul>
+
         <div class="modal-action">
           <form method="dialog">
             <!-- if there is a button in form, it will close the modal -->
