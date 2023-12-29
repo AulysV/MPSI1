@@ -28,7 +28,7 @@
   </h1>
   <p>
     Voici un très sérieux résumé non exhaustif hebdomadaire des cours de
-    mathathématiques enseignées par M. Molin.
+    mathathématiques enseignés par M. Molin.
   </p>
   <ul
     class="timeline timeline-vertical lg:timeline-horizontal bg-base-300 p-7 rounded-lg my-10"
@@ -182,7 +182,7 @@
           <h3 class="font-bold text-lg">Ils sont partout</h3>
           <p class="py-4">
             {@html q} est dense dans {@html r}, car entre n'importe quel couple
-            de deux éléments de {@html q}, on trouve un élément de {@html r}
+            de deux éléments de {@html r}, on trouve un élément de {@html q}
           </p>
           <h3 class="font-bold text-lg">Cocu</h3>
 
@@ -283,7 +283,7 @@
             « Quand j'étais petit, j'était le meilleur en balançoire. J'étais
             tellement le meilleur que je faisais des tours autour de la barre. »
             <br />
-            Contexte : raisonnance en physique
+            Contexte : résonnance en physique
           </p>
           <h3 class="font-bold text-lg">Tours</h3>
           <p class="pt-4">« Détruisez-les, ces tours ! »</p>

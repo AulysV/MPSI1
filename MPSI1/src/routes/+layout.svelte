@@ -60,11 +60,11 @@
             <li><a>Submenu 2</a></li>
           </ul>
         </li>
-        <li>
+        <!-- <li>
           <a href="https://www.instagram.com/ord_kevin7256/" target="_blank"
             >Échec</a
           >
-        </li>
+        </li> -->
       </ul>
     </div>
     <a class="btn btn-ghost text-xl" href="/">Accueil</a>
@@ -82,16 +82,19 @@
           </ul>
         </details>
       </li>
-      <li>
+      <!-- <li>
         <a href="https://www.instagram.com/ord_kevin7256/" target="_blank"
           >Échec</a
         >
-      </li>
+      </li> -->
     </ul>
   </div>
 
-  <div class="navbar-end">
-    <a class="btn" href="">MPSI1</a>
+  <div class="navbar-end mx-4">
+    <a
+      href="https://www.instagram.com/napoleon_mpsi1/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
+      target="_blank"><i class="fa-brands fa-instagram text-3xl"></i></a
+    >
   </div>
 </div>
 
@@ -151,33 +154,20 @@
       </div>
     </dialog>
   </nav>
-  <nav>
-    <div class="grid grid-flow-col gap-4">
-      <a href="https://discord.gg/D8mpMaA8mj" target="_blank"
-        ><i class="fa-brands fa-discord text-xl"></i></a
-      >
-      <a
-        href="https://www.instagram.com/napoleon_mpsi1/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
-        target="_blank"><i class="fa-brands fa-instagram text-xl"></i></a
-      >
-    </div>
-  </nav>
   <aside>
-    <p>Copyright © 2023 - All right reserved by nobody</p>
+    <p>Copyright © 2024 – All rights reserved by nobody</p>
   </aside>
 </footer>
 
 <!-- Toast -->
 
-<div class="toast">
+<!-- <div class="toast">
   <div
     class="bg-base-300 h-15 w-15 flex items-center justify-center rounded-full p-3"
   >
     <label class="swap swap-rotate">
-      <!-- this hidden checkbox controls the state -->
-      <input type="checkbox" class="theme-controller" value="dark" />
+      <input type="checkbox" class="theme-controller" value="sunset" />
 
-      <!-- sun icon -->
       <svg
         class="swap-on fill-current w-10 h-10"
         xmlns="http://www.w3.org/2000/svg"
@@ -187,7 +177,6 @@
         /></svg
       >
 
-      <!-- moon icon -->
       <svg
         class="swap-off fill-current w-10 h-10"
         xmlns="http://www.w3.org/2000/svg"
@@ -197,5 +186,76 @@
         /></svg
       >
     </label>
+  </div>
+</div> -->
+
+<div class="toast toast-end">
+  <div class="dropdown dropdown-left dropdown-end mx-4">
+    <div
+      tabindex="0"
+      role="button"
+      class="btn m-1 bg-neutral text-neutral-content"
+    >
+      Thème
+      <svg
+        width="12px"
+        height="12px"
+        class="h-2 w-2 fill-current opacity-60 inline-block"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 2048 2048"
+        ><path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"
+        ></path></svg
+      >
+    </div>
+    <ul
+      tabindex="0"
+      class="dropdown-content z-[1] p-3 shadow-2xl bg-base-300 rounded-box w-52 px-30"
+    >
+      <li>
+        <input
+          type="radio"
+          name="theme-dropdown"
+          class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+          aria-label="Par défaut"
+          value="sunset"
+        />
+      </li>
+      <li>
+        <input
+          type="radio"
+          name="theme-dropdown"
+          class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+          aria-label="Café"
+          value="coffee"
+        />
+      </li>
+      <li>
+        <input
+          type="radio"
+          name="theme-dropdown"
+          class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+          aria-label="Cyberpunk"
+          value="cyberpunk"
+        />
+      </li>
+      <li>
+        <input
+          type="radio"
+          name="theme-dropdown"
+          class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+          aria-label="Nord"
+          value="nord"
+        />
+      </li>
+      <li>
+        <input
+          type="radio"
+          name="theme-dropdown"
+          class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+          aria-label="Night"
+          value="night"
+        />
+      </li>
+    </ul>
   </div>
 </div>
