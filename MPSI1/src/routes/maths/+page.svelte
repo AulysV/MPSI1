@@ -20,13 +20,12 @@
   });
 </script>
 
-<div
-  class="h-full px-10 bg-base-200 py-20 flex flex-col items-center lg:items-start lg:px-20"
->
-  <h1 class="text-3xl py-7">
-    Mathématiques en classe préparatoire aux grandes écoles.
+<div class="h-full px-10 bg-base-200 py-20 lg:items-start lg:px-20">
+  <h1 class="text-3xl text-center font-semibold py-10 lg:text-5xl">
+    Mathématiques.
   </h1>
-  <p>
+  <div id="image" class="rounded-lg h-64"><div id="blur" class="rounded-lg"></div></div>
+  <p class="py-3 text-xl lg:text-3xl text-justify">
     Voici un très sérieux résumé non exhaustif hebdomadaire des cours de
     mathathématiques enseignés par M. Molin.
   </p>
@@ -506,3 +505,19 @@
     </li>
   </ul>
 </div>
+
+<style>
+  #image {
+    background-image: url("https://cdn.discordapp.com/attachments/971357234980327424/1189545367876948048/nap.jpg?ex=659e8d74&is=658c1874&hm=719f55e051ab64608491510b0e5d623fcae787238d3debb366541a5b59ccba22&");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2em;
+  }
+  #blur {
+    backdrop-filter: blur(7px);
+    background: rgba(0, 0, 0, 0);
+    height: 100%;
+    width: auto;
+  }
+</style>
