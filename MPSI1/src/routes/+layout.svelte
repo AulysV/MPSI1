@@ -53,18 +53,22 @@
         class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
       >
         <li><a href="/napo">Napoléours</a></li>
-        <li>
+        <!-- <li>
           <a>Matières</a>
           <ul class="p-2">
             <li><a href="/maths">Maths</a></li>
             <li><a>Submenu 2</a></li>
           </ul>
-        </li>
+        </li> -->
+
         <!-- <li>
           <a href="https://www.instagram.com/ord_kevin7256/" target="_blank"
             >Échec</a
           >
         </li> -->
+
+        <li><a href="/maths">Maths</a></li>
+        <li><a href="/art">Art</a></li>
       </ul>
     </div>
     <a class="btn btn-ghost text-xl" href="/">Accueil</a>
@@ -73,7 +77,7 @@
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
       <li><a href="/napo">Napoléours</a></li>
-      <li>
+      <!-- <li>
         <details>
           <summary>Matières</summary>
           <ul class="p-2">
@@ -81,12 +85,16 @@
             <li><a>Submenu 2</a></li>
           </ul>
         </details>
-      </li>
+      </li> -->
+
       <!-- <li>
         <a href="https://www.instagram.com/ord_kevin7256/" target="_blank"
           >Échec</a
         >
       </li> -->
+
+      <li><a href="/maths">Maths</a></li>
+      <li><a href="/art">Art</a></li>
     </ul>
   </div>
 
