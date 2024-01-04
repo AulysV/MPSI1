@@ -1,7 +1,9 @@
-<div id="p" class="h-100 px-10 font-serif py-20 lg:px-20">
+<div id="p" class="h-100 px-10 font-serif pb-10 lg:px-20">
   <h1 class="text-3xl text-center font-black py-10 lg:text-5xl">Napoléours</h1>
   <div class="flex flex-col">
-    <div id="image" class="rounded-lg h-64"><div class="rounded-lg" id="blur"></div></div>
+    <div id="image" class="rounded-lg h-64">
+      <div class="rounded-lg" id="blur"></div>
+    </div>
     <div id="texte">
       <p class="py-3 text-xl lg:text-3xl text-justify">
         Dans les interminables couloirs du lycée Albert Schweitzer, émanait une
@@ -50,7 +52,7 @@
     margin-bottom: 2em;
   }
   #blur {
-    backdrop-filter: blur(4px);
+    /* backdrop-filter: blur(0px); */
     background: rgba(0, 0, 0, 0.411);
     height: 100%;
     width: auto;

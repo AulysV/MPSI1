@@ -9,22 +9,22 @@
     "\\( cos(p) = \\frac{cosinq}{co}\\text{  donc  }cocu = \\frac{\\pi}{2} - q \\)";
 
   onMount(() => {
-    document.addEventListener("DOMContentLoaded", () => {
-      renderMathInElement(document.body, {
-        delimiters: [
-          { left: "\\(", right: "\\)", display: false },
-          { left: "$$", right: "$$", display: true },
-        ],
-      });
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "\\(", right: "\\)", display: false },
+        { left: "$$", right: "$$", display: true },
+      ],
     });
   });
 </script>
 
-<div class="h-full px-10 bg-base-200 py-20 lg:items-start lg:px-20">
+<div class="h-full px-10 bg-base-200 pb-10 lg:items-start lg:px-20">
   <h1 class="text-3xl text-center font-semibold py-10 lg:text-5xl">
     Mathématiques.
   </h1>
-  <div id="image" class="rounded-lg h-64"><div id="blur" class="rounded-lg"></div></div>
+  <div id="image" class="rounded-lg h-64">
+    <div id="blur" class="rounded-lg"></div>
+  </div>
   <p class="py-3 text-xl lg:text-3xl text-justify">
     Voici un très sérieux résumé non exhaustif hebdomadaire des cours de
     mathathématiques enseignés par M. Molin.
@@ -515,7 +515,7 @@
     margin-bottom: 2em;
   }
   #blur {
-    backdrop-filter: blur(7px);
+    /* backdrop-filter: blur(7px); */
     background: rgba(0, 0, 0, 0);
     height: 100%;
     width: auto;

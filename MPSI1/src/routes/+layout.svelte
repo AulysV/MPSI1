@@ -16,7 +16,7 @@
 
 <!-- Navbar -->
 
-<div class="navbar bg-base-300 fixed top-0 z-10">
+<div class="navbar bg-base-300">
   <label class="swap swap-flip text-9xl">
     <!-- this hidden checkbox controls the state -->
     <input type="checkbox" />
