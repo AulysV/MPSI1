@@ -5,10 +5,11 @@
   function verif() {
     if (motdepasseentré === vraimotdepasse) {
       const messageDiv = document.getElementById("message");
-      messageDiv.textContent = "Voici une petite musique en attendant les 500000 Francs CFA";
+      messageDiv.textContent =
+        "Voici une petite musique en attendant les 500000 Francs CFA";
 
       setTimeout(() => {
-        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank");
+        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
       }, 5000);
     } else {
       alert("Accès refusé!");
