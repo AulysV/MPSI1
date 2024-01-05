@@ -18,7 +18,7 @@
   }
 </script>
 
-<div class="h-svh text-center flex flex-col justify-center items-center">
+<div class="h-svh text-center flex flex-col justify-center items-center p-10">
   <h1 class="text-3xl text-center font-semibold my-5">
     Veuillez entrer le mot de passe :
   </h1>
