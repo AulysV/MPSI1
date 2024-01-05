@@ -9,11 +9,12 @@
         "Voici une petite musique en attendant les 500000 Francs CFA";
 
       setTimeout(() => {
-        window.location.href("https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        window.location.href("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
       }, 3000);
     } else {
       const messageDiv = document.getElementById("message");
-      messageDiv.textContent = "Mot de passe incorrect. Attention aux majuscules !";
+      messageDiv.textContent =
+        "Mot de passe incorrect. Attention aux majuscules !";
     }
   }
 </script>
