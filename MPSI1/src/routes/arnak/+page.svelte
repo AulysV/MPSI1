@@ -13,7 +13,7 @@
       }, 5000);
     } else {
       const messageDiv = document.getElementById("message");
-      messageDiv.textContent = "Mot de passe incorrect.";
+      messageDiv.textContent = "Mot de passe incorrect. Attention aux majuscules !";
     }
   }
 </script>
