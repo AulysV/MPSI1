@@ -100,7 +100,7 @@
     </div>
     <div class="collapse-content">
       <video controls width="500">
-        <source src="src/lib/hehe.mp4" type="video/mp4" />
+        <source src="$lib/hehe.mp4" type="video/mp4" />
         <!-- Ajoutez d'autres sources pour la compatibilité avec différents navigateurs -->
         Votre navigateur ne supporte pas la balise video.
       </video>
