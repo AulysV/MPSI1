@@ -68,7 +68,7 @@
         </li> -->
 
         <li><a href="/maths">Maths</a></li>
-        <li><a href="/art">Art</a></li>
+        <!-- <li><a href="/art">Art</a></li> -->
       </ul>
     </div>
     <a class="btn btn-ghost text-xl" href="/">Accueil</a>
@@ -94,7 +94,7 @@
       </li> -->
 
       <li><a href="/maths">Maths</a></li>
-      <li><a href="/art">Art</a></li>
+      <!-- <li><a href="/art">Art</a></li> -->
     </ul>
   </div>
 

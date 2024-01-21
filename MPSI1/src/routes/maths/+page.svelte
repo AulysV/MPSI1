@@ -222,7 +222,7 @@
         class="timeline-end btn timeline-box"
         onclick="my_modal_phok.showModal()"
       >
-        Cours applications
+        Applications
       </div>
       <dialog id="my_modal_phok" class="modal modal-bottom sm:modal-middle">
         <div class="modal-box">
@@ -504,7 +504,6 @@
       <hr class="bg-primary" />
     </li>
 
-
     <!-- 10 -->
 
     <li>
@@ -532,13 +531,13 @@
       <dialog id="my_modal_jan" class="modal modal-bottom sm:modal-middle">
         <div class="modal-box">
           <h3 class="font-bold text-lg">Citations de la semaine</h3>
-          <p class="py-4">
-            « Ça sert à rien d'essayer de se l'imaginer... »
-          </p>
+          <p class="py-4">« Ça sert à rien d'essayer de se l'imaginer... »</p>
 
           <p class="py-4">
-            Napoléours est séquestré instellectuellement par Maxence, qui lui fait voir ses horribles erreurs en maths.
-            Mais Napoléours a eu la chance d'aller chez Brian : il se rend compte que ce que lui a fait subir Maxence n'est absulument rien...
+            Napoléours est séquestré instellectuellement par Maxence, qui lui
+            fait voir ses horribles erreurs en maths. Mais Napoléours a eu la
+            chance d'aller chez Brian : il se rend compte que ce que lui a fait
+            subir Maxence n'est absulument rien...
           </p>
 
           <div class="modal-action">
@@ -583,21 +582,23 @@
           </p>
 
           <p class="py-4">
-            Un chimiste quand il veut jouer à la GameBoy, alors qu'il a un système à surveiller :
-            « Tkt bosss, c'est lipschitzien »
+            Un chimiste quand il veut jouer à la GameBoy, alors qu'il a un
+            système à surveiller : « Tkt bosss, c'est lipschitzien »
           </p>
 
           <p class="py-4">
-            « lipschitzien contient toutes les lettres de l'alphabet sauf le K, donc on le rajoute devant pour faire : K-lipschitzien »
+            « lipschitzien contient toutes les lettres de l'alphabet sauf le K,
+            donc on le rajoute devant pour faire : K-lipschitzien »
           </p>
 
           <p class="py-4">
-            Technique imparable en sortie de soirée : 
-            « Tu es homéomorphe à une boule, tu veux qu'on se fasse un produit de Cauchy ? 😉😉😉 »
+            Technique imparable en sortie de soirée : « Tu es homéomorphe à une
+            boule, tu veux qu'on se fasse un produit de Cauchy ? 😉😉😉 »
           </p>
 
           <p class="py-4">
-            « Sauvez les polynômes inversibles !! C'est une espèce en voie de disparition ! »
+            « Sauvez les polynômes inversibles !! C'est une espèce en voie de
+            disparition ! »
           </p>
 
           <div class="modal-action">
@@ -611,7 +612,6 @@
 
       <hr class="bg-primary" />
     </li>
-
   </ul>
 </div>
 
