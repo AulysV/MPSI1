@@ -503,6 +503,115 @@
 
       <hr class="bg-primary" />
     </li>
+
+
+    <!-- 10 -->
+
+    <li>
+      <hr class="bg-primary" />
+      <div class="timeline-start">8 janvier</div>
+      <div class="timeline-middle">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          class="w-5 h-5"
+          ><path
+            fill-rule="evenodd"
+            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+            clip-rule="evenodd"
+          /></svg
+        >
+      </div>
+      <div
+        class="timeline-end btn timeline-box"
+        onclick="my_modal_jan.showModal()"
+      >
+        Rentrée...
+      </div>
+      <dialog id="my_modal_jan" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <h3 class="font-bold text-lg">Citations de la semaine</h3>
+          <p class="py-4">
+            « Ça sert à rien d'essayer de se l'imaginer... »
+          </p>
+
+          <p class="py-4">
+            Napoléours est séquestré instellectuellement par Maxence, qui lui fait voir ses horribles erreurs en maths.
+            Mais Napoléours a eu la chance d'aller chez Brian : il se rend compte que ce que lui a fait subir Maxence n'est absulument rien...
+          </p>
+
+          <div class="modal-action">
+            <form method="dialog">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn">Fermer</button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+
+      <hr class="bg-primary" />
+    </li>
+
+    <li>
+      <hr class="bg-primary" />
+      <div class="timeline-start">15 janvier</div>
+      <div class="timeline-middle">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          class="w-5 h-5"
+          ><path
+            fill-rule="evenodd"
+            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+            clip-rule="evenodd"
+          /></svg
+        >
+      </div>
+      <div
+        class="timeline-end btn timeline-box"
+        onclick="my_modal_jan2.showModal()"
+      >
+        Dérivabilité
+      </div>
+      <dialog id="my_modal_jan2" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <h3 class="font-bold text-lg">Citations de la semaine</h3>
+          <p class="py-4">
+            « Avant de mettre ma main au four, je vérifie qu'il est chaud »
+          </p>
+
+          <p class="py-4">
+            Un chimiste quand il veut jouer à la GameBoy, alors qu'il a un système à surveiller :
+            « Tkt bosss, c'est lipschitzien »
+          </p>
+
+          <p class="py-4">
+            « lipschitzien contient toutes les lettres de l'alphabet sauf le K, donc on le rajoute devant pour faire : K-lipschitzien »
+          </p>
+
+          <p class="py-4">
+            Technique imparable en sortie de soirée : 
+            « Tu es homéomorphe à une boule, tu veux qu'on se fasse un produit de Cauchy ? 😉😉😉 »
+          </p>
+
+          <p class="py-4">
+            « Sauvez les polynômes inversibles !! C'est une espèce en voie de disparition ! »
+          </p>
+
+          <div class="modal-action">
+            <form method="dialog">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn">Fermer</button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+
+      <hr class="bg-primary" />
+    </li>
+
   </ul>
 </div>
 
