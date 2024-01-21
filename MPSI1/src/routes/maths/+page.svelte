@@ -284,9 +284,6 @@
             <br />
             Contexte : résonnance en physique
           </p>
-          <h3 class="font-bold text-lg">Tours</h3>
-          <p class="pt-4">« Détruisez-les, ces tours ! »</p>
-          <p class="pb-4 text-end">– M. Vadée-le-Brun</p>
 
           <div class="modal-action">
             <form method="dialog">

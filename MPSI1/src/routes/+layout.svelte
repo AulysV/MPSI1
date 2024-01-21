@@ -69,6 +69,9 @@
 
         <li><a href="/maths">Maths</a></li>
         <!-- <li><a href="/art">Art</a></li> -->
+        <li>
+          <a href="/physique">Physique</a>
+        </li>
       </ul>
     </div>
     <a class="btn btn-ghost text-xl" href="/">Accueil</a>
@@ -95,6 +98,12 @@
 
       <li><a href="/maths">Maths</a></li>
       <!-- <li><a href="/art">Art</a></li> -->
+      <li>
+        <a href="/physique">Physique</a>
+      </li>
+      <div class="indicator">
+        <span class="indicator-item badge badge-primary text-xs">New</span>
+      </div>
     </ul>
   </div>
 
