@@ -72,6 +72,7 @@
         <li>
           <a href="/physique">Physique</a>
         </li>
+        <li><a href="/autres">Autres</a></li>
       </ul>
     </div>
     <a class="btn btn-ghost text-xl" href="/">Accueil</a>
@@ -104,6 +105,13 @@
       <div class="indicator">
         <span class="indicator-item badge badge-primary text-xs">New</span>
       </div>
+
+      <li>
+        <a href="/autres">Autres</a>
+      <!-- </li>
+      <div class="indicator">
+        <span class="indicator-item badge badge-primary text-xs">New</span>
+      </div> -->
     </ul>
   </div>
 

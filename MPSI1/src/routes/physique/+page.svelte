@@ -44,6 +44,14 @@
         <div class="chat-bubble">Détruisez-les, ces tours !</div>
       </div>
 
+      <!-- <div class="chat chat-start">
+        <div class="chat-footer">
+          Chimie
+          <time class="text-xs opacity-50">Automne</time>
+        </div>
+        <div class="chat-bubble"></div>
+      </div> -->
+
       <div class="chat chat-start">
         <div class="chat-footer">
           DM 5

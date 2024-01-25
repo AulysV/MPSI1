@@ -30,7 +30,7 @@
     mathathématiques enseignés par M. Molin.
   </p>
   <ul
-    class="timeline timeline-vertical lg:timeline-horizontal bg-base-300 p-7 rounded-lg my-10"
+    class="timeline timeline-vertical 2xl:timeline-horizontal bg-base-300 p-7 rounded-lg my-10"
   >
     <!-- 1 -->
     <li>
@@ -531,7 +531,7 @@
           <p class="py-4">« Ça sert à rien d'essayer de se l'imaginer... »</p>
 
           <p class="py-4">
-            Napoléours est séquestré instellectuellement par Maxence, qui lui
+            Napoléours est séquestré intellectuellement par Maxence, qui lui
             fait voir ses horribles erreurs en maths. Mais Napoléours a eu la
             chance d'aller chez Brian : il se rend compte que ce que lui a fait
             subir Maxence n'est absulument rien...
@@ -548,6 +548,8 @@
 
       <hr class="bg-primary" />
     </li>
+
+    <!-- 11 -->
 
     <li>
       <hr class="bg-primary" />
@@ -596,6 +598,62 @@
           <p class="py-4">
             « Sauvez les polynômes inversibles !! C'est une espèce en voie de
             disparition ! »
+          </p>
+
+          <div class="modal-action">
+            <form method="dialog">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn">Fermer</button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+
+      <hr class="bg-primary" />
+    </li>
+  </ul>
+  <ul
+    class="timeline timeline-vertical lg:timeline-horizontal bg-base-300 p-7 rounded-lg my-10"
+  >
+    <!-- 12 -->
+
+    <li>
+      <hr class="bg-primary" />
+      <div class="timeline-start">22 janvier</div>
+      <div class="timeline-middle">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          class="w-5 h-5"
+          ><path
+            fill-rule="evenodd"
+            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+            clip-rule="evenodd"
+          /></svg
+        >
+      </div>
+      <div
+        class="timeline-end btn timeline-box"
+        onclick="my_modal_jan3.showModal()"
+      >
+        Polynômes
+      </div>
+      <dialog id="my_modal_jan3" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <h3 class="font-bold text-lg">Citations de la semaine</h3>
+
+          <p class="py-4">« Il est toujours agréable de faire un massacre »</p>
+
+          <p class="py-4">
+            « Les irréductibles gaulois réels sont exactement les gaulois de
+            degré 1 et les gaulois de degré 2 à discriminant strictement
+            négatif. »
+          </p>
+
+          <p class="py-4">
+            « La fée Carabosse arrive et te dit : Pleure pas ! Ce que tu crois
+            être complexe est bien réel ! »
           </p>
 
           <div class="modal-action">
