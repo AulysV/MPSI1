@@ -30,7 +30,7 @@
     mathathématiques enseignés par M. Molin.
   </p>
   <ul
-    class="timeline timeline-vertical 2xl:timeline-horizontal bg-base-300 p-7 rounded-lg my-10"
+    class="timeline timeline-vertical 2xl:timeline-horizontal bg-base-300 px-7 pt-7 2xl:py-7 rounded-lg 2xl:my-10 mt-5"
   >
     <!-- 1 -->
     <li>
@@ -613,7 +613,7 @@
     </li>
   </ul>
   <ul
-    class="timeline timeline-vertical lg:timeline-horizontal bg-base-300 p-7 rounded-lg my-10"
+    class="timeline timeline-vertical 2xl:timeline-horizontal bg-base-300 px-7 pb-7 2xl:py-7 rounded-lg 2xl:my-10"
   >
     <!-- 12 -->
 
