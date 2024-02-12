@@ -25,7 +25,7 @@
   <div id="image" class="rounded-lg h-64">
     <div id="blur" class="rounded-lg"></div>
   </div>
-  <p class="py-3 text-xl lg:text-3xl text-justify">
+  <p class="py-3 text-xl lg:text-3xl">
     Voici un très sérieux résumé non exhaustif hebdomadaire des cours de
     mathathématiques enseignés par M. Molin.
   </p>

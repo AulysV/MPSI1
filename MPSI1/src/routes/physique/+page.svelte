@@ -5,7 +5,7 @@
   <div id="image" class="rounded-lg h-64">
     <div id="blur" class="rounded-lg"></div>
   </div>
-  <p class="py-3 text-xl lg:text-3xl text-justify mb-5">
+  <p class="py-3 text-xl lg:text-3xl mb-5">
     Soyons polis, ne parlons pas de chimie.
   </p>
 
