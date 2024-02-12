@@ -667,6 +667,111 @@
 
       <hr class="bg-primary" />
     </li>
+
+    <!-- 13 -->
+
+    <li>
+      <hr class="bg-primary" />
+      <div class="timeline-start">29 janvier</div>
+      <div class="timeline-middle">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          class="w-5 h-5"
+          ><path
+            fill-rule="evenodd"
+            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+            clip-rule="evenodd"
+          /></svg
+        >
+      </div>
+      <div
+        class="timeline-end btn timeline-box"
+        onclick="my_modal_jan4.showModal()"
+      >
+        Lagrange
+      </div>
+      <dialog id="my_modal_jan4" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <h3 class="font-bold text-lg">Citations de la semaine</h3>
+
+          <p class="py-4">
+            « S'il y a une chose que vous devez amener dans le Sahara, ce sont
+            les polynômes interpolateurs de Lagrange. »
+          </p>
+
+          <p class="py-4">
+            « Une fois qu'on en a mis partout, on se dit "Ah, bah c'était
+            moche..." »
+          </p>
+
+          <p class="py-4">« Tu as vraiment des yeux de vaches !»</p>
+
+          <div class="modal-action">
+            <form method="dialog">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn">Fermer</button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+
+      <hr class="bg-primary" />
+    </li>
+
+    <!-- 14 -->
+
+    <li>
+      <hr class="bg-primary" />
+      <div class="timeline-start">5 février</div>
+      <div class="timeline-middle">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          class="w-5 h-5"
+          ><path
+            fill-rule="evenodd"
+            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+            clip-rule="evenodd"
+          /></svg
+        >
+      </div>
+      <div
+        class="timeline-end btn timeline-box"
+        onclick="my_modal_fev.showModal()"
+      >
+        Groupes
+      </div>
+      <dialog id="my_modal_fev" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <h3 class="font-bold text-lg">Citations de la semaine</h3>
+
+          <p class="py-4">
+            « 2 anneaux + 3 anneaux font ? Les JO ! Youpi les JO !»
+          </p>
+
+          <p class="py-4">« Y'a pas que le Δ qui est nul ! »</p>
+
+          <p class="py-4">
+            « Vous voulez voir mes photos de vacances, n'est-ce pas ? Vous
+            saviez pas que j'étais un surfeur »
+          </p>
+
+          <p class="py-4">Leibniz vs Taylor : le combat ultime.</p>
+
+          <div class="modal-action">
+            <form method="dialog">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn">Fermer</button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+
+      <hr class="bg-primary" />
+    </li>
   </ul>
 </div>
 

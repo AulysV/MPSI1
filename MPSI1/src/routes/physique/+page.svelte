@@ -1,3 +1,19 @@
+<script>
+  import "katex/dist/katex.min.css";
+  import { onMount } from "svelte";
+
+  let r = "\\( \\mathbb{R} \\)";
+
+  onMount(() => {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "\\(", right: "\\)", display: false },
+        { left: "$$", right: "$$", display: true },
+      ],
+    });
+  });
+</script>
+
 <div class="h-full px-10 bg-base-200 pb-10 lg:items-start lg:px-20">
   <h1 class="text-3xl text-center font-semibold py-10 lg:text-5xl">
     Physique.
@@ -97,6 +113,34 @@
         <div class="chat-bubble">
           Alice et Bob ont une idée en tête : Pousser Alice suffisamment fort
           pour qu’elle puisse faire un tour complet.
+        </div>
+      </div>
+
+      <div class="chat chat-start">
+        <div class="chat-footer">
+          Force centrale
+          <time class="text-xs opacity-50">Janvier</time>
+        </div>
+        <div class="chat-bubble">ISS : centre d'entrainement pour bébés</div>
+      </div>
+
+      <div class="chat chat-start">
+        <div class="chat-footer">
+          Champs
+          <time class="text-xs opacity-50">Janvier</time>
+        </div>
+        <div class="chat-bubble">
+          Je me branche au nuage et je lui prends toute son électricité
+        </div>
+      </div>
+
+      <div class="chat chat-start">
+        <div class="chat-footer">
+          Champs
+          <time class="text-xs opacity-50">Janvier</time>
+        </div>
+        <div class="chat-bubble">
+          Par récurrence rapide sur {@html r}
         </div>
       </div>
     </div>
