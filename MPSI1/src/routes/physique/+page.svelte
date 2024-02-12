@@ -121,7 +121,7 @@
           Force centrale
           <time class="text-xs opacity-50">Janvier</time>
         </div>
-        <div class="chat-bubble">ISS : centre d'entrainement pour bébés</div>
+        <div class="chat-bubble">L'ISS c'est juste un petit centre d'entrainement pour les bébés</div>
       </div>
 
       <div class="chat chat-start">
