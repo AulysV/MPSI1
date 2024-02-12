@@ -706,7 +706,7 @@
             moche..." »
           </p>
 
-          <p class="py-4">« Tu as vraiment des yeux de vaches !»</p>
+          <p class="py-4">« Tu as vraiment des yeux de vache ! »</p>
 
           <div class="modal-action">
             <form method="dialog">
