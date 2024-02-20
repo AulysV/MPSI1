@@ -72,7 +72,7 @@
         <li>
           <a href="/physique">Physique</a>
         </li>
-        <li><a href="/autres">Autres</a></li>
+        <!-- <li><a href="/autres">Autres</a></li> -->
       </ul>
     </div>
     <a class="btn btn-ghost text-xl" href="/">Accueil</a>
@@ -108,10 +108,11 @@
 
       <li>
         <a href="/autres">Autres</a>
-      <!-- </li>
+        <!-- </li>
       <div class="indicator">
         <span class="indicator-item badge badge-primary text-xs">New</span>
       </div> -->
+      </li>
     </ul>
   </div>
 
