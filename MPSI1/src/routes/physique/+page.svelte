@@ -12,6 +12,8 @@
       ],
     });
   });
+
+  import hehe from "$lib/hehe.mp4";
 </script>
 
 <div class="h-full px-10 bg-base-200 pb-10 lg:items-start lg:px-20">
@@ -121,7 +123,9 @@
           Force centrale
           <time class="text-xs opacity-50">Janvier</time>
         </div>
-        <div class="chat-bubble">L'ISS c'est juste un petit centre d'entrainement pour les bébés</div>
+        <div class="chat-bubble">
+          L'ISS c'est juste un petit centre d'entrainement pour les bébés
+        </div>
       </div>
 
       <div class="chat chat-start">
@@ -152,10 +156,7 @@
     </div>
     <div class="collapse-content">
       <video controls width="500">
-        <source
-          src="https://cdn.discordapp.com/attachments/1150172446314463302/1197309554388647986/HEHE1.mp4"
-          type="video/mp4"
-        />
+        <source src={hehe} type="video/mp4" />
         <!-- Ajoutez d'autres sources pour la compatibilité avec différents navigateurs -->
         Votre navigateur ne supporte pas la balise video.
       </video>
@@ -166,7 +167,7 @@
 
 <style>
   #image {
-    background-image: url("https://cdn.discordapp.com/attachments/1195061627377156206/1197583806945832970/IMG_2319.jpg?ex=65bbcbd5&is=65a956d5&hm=6bffed478654e6e7019be2e7c84acc3652e35d34e144be451a2b4bd24af359f1&");
+    background-image: url("$lib/img/6.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;

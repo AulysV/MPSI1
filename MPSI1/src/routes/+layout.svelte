@@ -12,6 +12,9 @@
   //   };
   //   rotateButton();
   // });
+
+  import logo1 from "$lib/img/logoMpsi1.png";
+  import logo2 from "$lib/img/logoMpsi12.png";
 </script>
 
 <!-- Navbar -->
@@ -20,14 +23,8 @@
   <label class="swap swap-flip text-9xl">
     <!-- this hidden checkbox controls the state -->
     <input type="checkbox" />
-    <img
-      src="https://cdn.discordapp.com/attachments/971357234980327424/1189545367570759711/logoMpsi1.png?ex=659e8d74&is=658c1874&hm=c4b9c041a7a17e320387ee3dd1bb2281d3c36bfa0a642b8e4eb9691930e62ffc&"
-      class="max-w-10 mx-2 swap-off"
-    />
-    <img
-      src="https://cdn.discordapp.com/attachments/971357234980327424/1189551882537017414/logoMpsi12.png?ex=659e9385&is=658c1e85&hm=eaf6029230099c280c30fddacdc6fd89233aed4906dde81249cd2964d7235320&"
-      class="max-w-10 mx-2 swap-on"
-    />
+    <img src={logo1} class="max-w-10 mx-2 swap-off" />
+    <img src={logo2} class="max-w-10 mx-2 swap-on" />
   </label>
 
   <div class="navbar-start">

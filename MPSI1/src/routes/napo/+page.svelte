@@ -45,7 +45,7 @@
       "Times New Roman", Times, serif;
   }
   #image {
-    background-image: url("https://cdn.discordapp.com/attachments/971357234980327424/1189561191635365898/WhatsApp_Image_2023-12-21_at_20.09.44.jpeg?ex=659e9c31&is=658c2731&hm=82b909f6b43e069b585b37f471ce1e2b57518c1c5aa5002e64e7f53c4cdf7f0f&");
+    background-image: url("$lib/img/3.jpeg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;

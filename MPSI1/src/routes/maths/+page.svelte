@@ -16,6 +16,10 @@
       ],
     });
   });
+
+  import phoq from "$lib/img/phoq.png";
+  import i1 from "$lib/img/nap.jpg";
+  import mol from "$lib/img/mol.png";
 </script>
 
 <div class="h-full px-10 bg-base-200 pb-10 lg:items-start lg:px-20">
@@ -226,11 +230,7 @@
       </div>
       <dialog id="my_modal_phok" class="modal modal-bottom sm:modal-middle">
         <div class="modal-box">
-          <img
-            src="https://cdn.discordapp.com/attachments/971357234980327424/1190030697868574740/broken-image-dark.png?ex=65a05174&is=658ddc74&hm=06a38ad1fec66cc836024f2f494fbc5ac4e626904d449100c26264aa1cb510d7&"
-            alt="phoques"
-            class="h-full w-full rounded-lg"
-          />
+          <img src={phoq} alt="phoques" class="h-full w-full rounded-lg" />
           <p>Comprendra qui pourra</p>
 
           <div class="modal-action">
@@ -424,7 +424,7 @@
             Le divin avènement de Napoléours 1er, notre Empereur à tous.
           </p>
           <img
-            src="https://cdn.discordapp.com/attachments/971357234980327424/1189561209654083604/Sans_titre.jpg?ex=659e9c35&is=658c2735&hm=4637e16d0a1a308d93ebf430e8bd209c4097fc2bd31df49073cebd830791bb81&"
+            src={i1}
             alt="Napléours"
             class="max-h-32 w-auto mx-auto rounded-md lg:max-h-48 mb-4"
           />
@@ -432,7 +432,7 @@
           <h3 class="font-bold text-lg">Suite stationnaire</h3>
           <p class="py-3">L'image se suffit à elle-même.</p>
           <img
-            src="https://media.discordapp.net/attachments/971357234980327424/1190043414281076818/image.png?ex=65a05d4b&is=658de84b&hm=a201d254538a20850204e5d13f147fd5f115ae5e7ed592913ca2ca5c69e2796e&=&format=webp&quality=lossless"
+            src={mol}
             alt=""
             class="max-h-32 w-auto mx-auto rounded-md lg:max-h-48"
           />
@@ -777,7 +777,7 @@
 
 <style>
   #image {
-    background-image: url("https://cdn.discordapp.com/attachments/971357234980327424/1189545367876948048/nap.jpg?ex=659e8d74&is=658c1874&hm=719f55e051ab64608491510b0e5d623fcae787238d3debb366541a5b59ccba22&");
+    background-image: url("$lib/img/nap.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
