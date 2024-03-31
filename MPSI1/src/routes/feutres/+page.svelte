@@ -8,8 +8,10 @@
   <div class="hero-overlay bg-opacity-40"></div>
   <div class="hero-content text-center text-neutral-content">
     <div class="max-w-none">
-      <h1 class="mb-14 text-8xl font-bold">Le feutre de Napoléon</h1>
-      <p class="mb-14 text-3xl font-bold">
+      <h1 class="text-6xl mb-14 lg:text-8xl font-bold">
+        Le feutre de Napoléon
+      </h1>
+      <p class="mb-14 text-2xl font-bold lg:text-3xl">
         Découvrez les feutres ultimes, utilisés par l'Empereur lui-même.
       </p>
     </div>
@@ -27,8 +29,8 @@
   <div class="hero-overlay bg-opacity-40"></div>
   <div class="hero-content text-neutral-content">
     <div class="max-w-none">
-      <h1 class="mb-14 text-8xl font-bold">Convaincus ?</h1>
-      <p class="mb-2 text-3xl font-bold">
+      <h1 class="text-6xl mb-14 lg:text-8xl font-bold">Convaincus ?</h1>
+      <p class="mb-2 text-2xl font-bold lg:text-3xl">
         Achetez cet artéfact historique dès maintenant !
       </p>
       <p class="mb-14 text-md font-bold">
