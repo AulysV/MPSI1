@@ -12,6 +12,7 @@
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@tailwindcss/typography": "^0.5.10",
+		"@zerodevx/svelte-img": "^2.1.0",
 		"autoprefixer": "^10.4.16",
 		"daisyui": "^4.4.24",
 		"postcss": "^8.4.32",
@@ -25,6 +26,7 @@
 		"@sveltejs/adapter-vercel": "^4.0.3",
 		"gsap": "^3.12.4",
 		"katex": "^0.16.9",
+		"locomotive-scroll": "^4.1.4",
 		"party-js": "^2.2.0"
 	}
 }

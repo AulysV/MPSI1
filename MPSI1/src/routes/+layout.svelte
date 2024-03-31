@@ -69,6 +69,9 @@
         <li>
           <a href="/physique">Physique</a>
         </li>
+        <li>
+          <a href="/feutres">Feutres</a>
+        </li>
         <!-- <li><a href="/autres">Autres</a></li> -->
       </ul>
     </div>
@@ -99,6 +102,13 @@
       <li>
         <a href="/physique">Physique</a>
       </li>
+
+      <li>
+        <a href="/feutres">Feutres</a>
+      </li>
+      <div class="indicator">
+        <span class="indicator-item badge badge-primary text-xs">New</span>
+      </div>
 
       <!-- <li>
         <a href="/autres">Autres</a>
@@ -267,7 +277,7 @@
           name="theme-dropdown"
           class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
           aria-label="Par défaut"
-          value="sunset"
+          value="corporate"
         />
       </li>
       <li>
