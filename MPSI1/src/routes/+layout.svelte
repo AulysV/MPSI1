@@ -99,17 +99,14 @@
       <li>
         <a href="/physique">Physique</a>
       </li>
+
+      <!-- <li>
+        <a href="/autres">Autres</a>
+      </li>
       <div class="indicator">
         <span class="indicator-item badge badge-primary text-xs">New</span>
       </div>
-
-      <li>
-        <a href="/autres">Autres</a>
-        <!-- </li>
-      <div class="indicator">
-        <span class="indicator-item badge badge-primary text-xs">New</span>
-      </div> -->
-      </li>
+      </li> -->
     </ul>
   </div>
 

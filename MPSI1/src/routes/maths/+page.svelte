@@ -8,6 +8,11 @@
   let cocu =
     "\\( cos(p) = \\frac{cosinq}{co}\\text{  donc  }cocu = \\frac{\\pi}{2} - q \\)";
 
+  let ln = "\\( \\sqrt{n}\\;ln(n) \\text{  : la petite crevette} \\)";
+  let ln2 =
+    "\\( n \\;ln(n) \\text{  : la crevette qui a mangé des protéines} \\)";
+  let ln3 = "\\( n^2 \\text{  : le costaud dont le papa est gangster} \\)";
+
   onMount(() => {
     renderMathInElement(document.body, {
       delimiters: [
@@ -761,6 +766,115 @@
 
           <p class="py-4">Leibniz vs Taylor : le combat ultime.</p>
 
+          <div class="modal-action">
+            <form method="dialog">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn">Fermer</button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+
+      <hr class="bg-primary" />
+    </li>
+
+    <!-- 15 -->
+
+    <li>
+      <hr class="bg-primary" />
+      <div class="timeline-start">26 février</div>
+      <div class="timeline-middle">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          class="w-5 h-5"
+          ><path
+            fill-rule="evenodd"
+            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+            clip-rule="evenodd"
+          /></svg
+        >
+      </div>
+      <div
+        class="timeline-end btn timeline-box"
+        onclick="my_modal_ev.showModal()"
+      >
+        Espaces vectoriels
+      </div>
+      <dialog id="my_modal_ev" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <p class="py-4">
+            « Imaginez que vous vivez dans un espace à deux dimensions, comme
+            les Égyptiens »
+          </p>
+
+          <p class="py-4">
+            « Imaginez un paquet de bonbons constitué de chips et de Jo-lafrite
+            »
+          </p>
+
+          <h3 class="font-bold text-lg">Semaine du 11 mars</h3>
+          <p class="py-4">{@html ln}</p>
+          <p class="py-4">{@html ln2}</p>
+          <p class="py-4">{@html ln3}</p>
+
+          <p class="py-4">
+            « Écoutez ce stylo. Il possède la vérité. Attention à ne pas avoir
+            l'oreille toute noire par contre »
+          </p>
+
+          <p class="py-4"></p>
+          <div class="modal-action">
+            <form method="dialog">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn">Fermer</button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+
+      <hr class="bg-primary" />
+    </li>
+
+    <!-- 16 -->
+
+    <li>
+      <hr class="bg-primary" />
+      <div class="timeline-start">18 mars</div>
+      <div class="timeline-middle">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          class="w-5 h-5"
+          ><path
+            fill-rule="evenodd"
+            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+            clip-rule="evenodd"
+          /></svg
+        >
+      </div>
+      <div
+        class="timeline-end btn timeline-box"
+        onclick="my_modal_pr.showModal()"
+      >
+        Probas
+      </div>
+      <dialog id="my_modal_pr" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <h3 class="font-bold text-lg">Citations de la semaine</h3>
+          <p class="py-4">« J'ai hypothéqué mes parents »</p>
+          <p class="py-4">
+            « On va mettre des gens dans des cases, on va les ségréger. »
+          </p>
+          <p class="py-4">
+            « N'ayez pas honte de votre status social. Il faut bien que
+            quelqu'un représente la classe prolétaire, nécessaire à la société.
+            Soyez-en fiers. »
+          </p>
+
+          <p class="py-4"></p>
           <div class="modal-action">
             <form method="dialog">
               <!-- if there is a button in form, it will close the modal -->
